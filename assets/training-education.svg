@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGrad4)"/>
+  
+  <!-- Classroom setting -->
+  <rect x="50" y="80" width="300" height="150" fill="rgba(255,255,255,0.1)" rx="8"/>
+  
+  <!-- Whiteboard -->
+  <rect x="70" y="100" width="260" height="100" fill="rgba(255,255,255,0.9)" rx="4"/>
+  
+  <!-- Equations on board -->
+  <text x="80" y="125" fill="#333" font-family="serif" font-size="14">dh/dt + d(uh)/dx + d(vh)/dy = 0</text>
+  <text x="80" y="145" fill="#333" font-family="serif" font-size="12">Continuity Equation</text>
+  
+  <text x="80" y="170" fill="#333" font-family="serif" font-size="14">du/dt + u*du/dx + v*du/dy = -g*dh/dx</text>
+  <text x="80" y="185" fill="#333" font-family="serif" font-size="12">Momentum Equation (x)</text>
+  
+  <!-- Students (simplified) -->
+  <circle cx="120" cy="250" r="8" fill="rgba(255,255,255,0.8)"/>
+  <rect x="115" y="255" width="10" height="15" fill="rgba(255,255,255,0.8)"/>
+  
+  <circle cx="160" cy="250" r="8" fill="rgba(255,255,255,0.8)"/>
+  <rect x="155" y="255" width="10" height="15" fill="rgba(255,255,255,0.8)"/>
+  
+  <circle cx="200" cy="250" r="8" fill="rgba(255,255,255,0.8)"/>
+  <rect x="195" y="255" width="10" height="15" fill="rgba(255,255,255,0.8)"/>
+  
+  <circle cx="240" cy="250" r="8" fill="rgba(255,255,255,0.8)"/>
+  <rect x="235" y="255" width="10" height="15" fill="rgba(255,255,255,0.8)"/>
+  
+  <!-- Laptop/presentation -->
+  <rect x="280" y="240" width="40" height="25" fill="rgba(255,255,255,0.8)" rx="2"/>
+  <rect x="285" y="243" width="30" height="18" fill="#333" rx="1"/>
+  
+  <!-- Workshop materials -->
+  <rect x="80" y="220" width="20" height="15" fill="rgba(255,255,255,0.7)"/>
+  <rect x="110" y="220" width="20" height="15" fill="rgba(255,255,255,0.7)"/>
+  <rect x="140" y="220" width="20" height="15" fill="rgba(255,255,255,0.7)"/>
+  
+  <!-- Title -->
+  <text x="200" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Hydrodynamic Modeling Workshop</text>
+  <text x="200" y="285" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Professional Training and Education</text>
+</svg>

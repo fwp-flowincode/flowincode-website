@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="meshGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.8)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0.4)"/>
+    </linearGradient>
+    <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="400" fill="url(#heroGrad)"/>
+  <rect width="500" height="400" fill="url(#smallGrid)"/>
+  
+  <!-- 3D surface representation -->
+  <!-- Base mesh -->
+  <path d="M50,300 Q150,250 250,280 T450,290 L450,350 Q350,340 250,350 T50,350 Z" fill="url(#meshGrad)" opacity="0.6"/>
+  <path d="M50,280 Q150,230 250,260 T450,270 L450,330 Q350,320 250,330 T50,330 Z" fill="url(#meshGrad)" opacity="0.7"/>
+  <path d="M50,260 Q150,210 250,240 T450,250 L450,310 Q350,300 250,310 T50,310 Z" fill="url(#meshGrad)" opacity="0.8"/>
+  
+  <!-- Velocity vectors -->
+  <g stroke="rgba(255,255,255,0.9)" stroke-width="2" fill="none">
+    <path d="M100,200 L130,190"/>
+    <path d="M127,188 L132,193 L127,195"/>
+    
+    <path d="M200,180 L240,165"/>
+    <path d="M237,163 L242,168 L237,170"/>
+    
+    <path d="M300,170 L340,150"/>
+    <path d="M337,148 L342,153 L337,155"/>
+    
+    <path d="M400,160 L430,145"/>
+    <path d="M427,143 L432,148 L427,150"/>
+  </g>
+  
+  <!-- Flow streamlines -->
+  <path d="M80,220 Q200,180 320,160 T480,140" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <path d="M70,250 Q180,210 300,190 T460,170" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+  <path d="M90,280 Q200,240 320,220 T470,200" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+  
+  <!-- Mathematical notation -->
+  <text x="50" y="50" fill="rgba(255,255,255,0.9)" font-family="serif" font-size="18" font-weight="bold">Navier-Stokes Equations</text>
+  <text x="50" y="75" fill="rgba(255,255,255,0.8)" font-family="serif" font-size="14">du/dt + (u*grad)u = -grad(p)/rho + nu*del2(u) + g</text>
+  <text x="50" y="95" fill="rgba(255,255,255,0.8)" font-family="serif" font-size="14">div(u) = 0</text>
+  
+  <!-- Coordinate system -->
+  <g stroke="rgba(255,255,255,0.8)" stroke-width="2" fill="rgba(255,255,255,0.8)">
+    <path d="M400,320 L430,320"/>
+    <text x="435" y="325" font-size="12">x</text>
+    <path d="M400,320 L400,290"/>
+    <text x="385" y="285" font-size="12">z</text>
+    <path d="M400,320 L385,335"/>
+    <text x="375" y="350" font-size="12">y</text>
+  </g>
+  
+  <!-- Data points -->
+  <circle cx="150" cy="200" r="3" fill="#ff6b6b"/>
+  <circle cx="250" cy="180" r="3" fill="#4ecdc4"/>
+  <circle cx="350" cy="160" r="3" fill="#45b7d1"/>
+  <circle cx="200" cy="220" r="3" fill="#96ceb4"/>
+  
+  <!-- Title overlay -->
+  <rect x="150" y="350" width="200" height="40" fill="rgba(0,0,0,0.5)" rx="4"/>
+  <text x="250" y="370" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Hydrodynamic Modeling</text>
+  <text x="250" y="385" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Computational Fluid Dynamics</text>
+</svg>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="flowincode - Professional web development solutions with modern, responsive design and innovative coding practices">
+    <meta name="keywords" content="flowincode, web development, coding, responsive design, professional websites">
+    <meta name="author" content="flowincode">
+    <title>flowincode - Professional Web Development Solutions</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <img src="figures/logo.png" alt="flowincode" class="logo-img">
+                    flowincode
+                </a>
+            </div>
+            <!-- language dropdown moved into nav-menu for consistent spacing -->
+            <ul class="nav-menu">
+                <li class="nav-item nav-lang">
+                    <div class="lang-dropdown">
+                        <button type="button" class="lang-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/flags/gb.svg" alt="EN" class="flag-icon">
+                            <span class="lang-abbr">EN</span>
+                            <span class="dropdown-caret">▾</span>
+                        </button>
+                        <ul class="lang-dropdown-menu" role="menu" aria-label="Language selector">
+                            <li role="none"><button type="button" class="lang-btn" data-lang="en" role="menuitem" aria-label="English"><img src="assets/flags/gb.svg" alt="EN" class="flag-icon"> <span class="lang-abbr">EN</span></button></li>
+                            <li role="none"><button type="button" class="lang-btn" data-lang="de" role="menuitem" aria-label="Deutsch"><img src="assets/flags/de.svg" alt="DE" class="flag-icon"> <span class="lang-abbr">DE</span></button></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#home" class="nav-link"><span data-lang="en">Home</span><span data-lang="de">Start</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link"><span data-lang="en">About</span><span data-lang="de">Über uns</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link"><span data-lang="en">Services</span><span data-lang="de">Leistungen</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link"><span data-lang="en">Portfolio</span><span data-lang="de">Portfolio</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="publications.html" class="nav-link"><span data-lang="en">Publications</span><span data-lang="de">Publikationen</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link"><span data-lang="en">Contact</span><span data-lang="de">Kontakt</span></a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title"><span data-lang="en">Welcome to flowincode</span><span data-lang="de">Willkommen bei flowincode</span></h1>
+                <p class="hero-subtitle"><span data-lang="en">Expert hydrodynamic modeling and scientific software development for climate change research and environmental solutions</span><span data-lang="de">Experten für hydrodynamische Modellierung und wissenschaftliche Softwareentwicklung für Klimafolgenforschung und Umweltlösungen</span></p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary"><span data-lang="en">Learn More</span><span data-lang="de">Mehr erfahren</span></a>
+                    <a href="#contact" class="btn btn-secondary"><span data-lang="en">Get In Touch</span><span data-lang="de">Kontakt aufnehmen</span></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero-hydrodynamics.svg" alt="Hydrodynamic Modeling Visualization" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-lang="en">About Us</span><span data-lang="de">Über uns</span></h2>
+                <p><span data-lang="en">Learn more about what we do</span><span data-lang="de">Erfahren Sie mehr über unsere Arbeit</span></p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3><span data-lang="en">Scientific Computing & Hydrodynamic Modeling Experts</span><span data-lang="de">Experten für wissenschaftliches Rechnen & hydrodynamische Modellierung</span></h3>
+                    <p><span data-lang="en">At flowincode, we specialize in advanced hydrodynamic modeling and scientific software development. Our expertise spans climate change research, urban flood analysis, and numerical model validation using cutting-edge computational methods.</span><span data-lang="de">Bei flowincode sind wir auf fortgeschrittene hydrodynamische Modellierung und wissenschaftliche Softwareentwicklung spezialisiert. Unsere Expertise umfasst Klimafolgenforschung, Analyse urbaner Sturzfluten und Validierung numerischer Modelle mit modernen rechnerischen Methoden.</span></p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check"></i> <span data-lang="en">2D/3D Hydrodynamic Modeling</span><span data-lang="de">2D/3D hydrodynamische Modellierung</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang="en">Multi-language Development (Fortran, Python, Julia, Matlab)</span><span data-lang="de">Mehrsprachige Entwicklung (Fortran, Python, Julia, Matlab)</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang="en">Climate Change Research</span><span data-lang="de">Klimafolgenforschung</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang="en">Professional Training & Education</span><span data-lang="de">Professionelle Schulungen & Fortbildungen</span></li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h4>100+</h4>
+                        <p><span data-lang="en">Projects Completed</span><span data-lang="de">Abgeschlossene Projekte</span></p>
+                    </div>
+                    <div class="stat">
+                        <h4>50+</h4>
+                        <p><span data-lang="en">Happy Clients</span><span data-lang="de">Zufriedene Kunden</span></p>
+                    </div>
+                    <div class="stat">
+                        <h4>5+</h4>
+                        <p><span data-lang="en">Years Experience</span><span data-lang="de">Jahre Erfahrung</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-lang="en">Our Services</span><span data-lang="de">Unsere Leistungen</span></h2>
+                <p><span data-lang="en">What we offer to help you succeed</span><span data-lang="de">Was wir anbieten, um Sie zu unterstützen</span></p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3><span data-lang="en">Hydrodynamic Modeling</span><span data-lang="de">Hydrodynamische Modellierung</span></h3>
+                    <p><span data-lang="en">Expert 2D and 3D hydrodynamic modeling solutions for complex fluid dynamics challenges and environmental research.</span><span data-lang="de">Fachkundige 2D- und 3D-hydrodynamische Modellierungslösungen für komplexe Strömungsprobleme und Umweltforschung.</span></p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3><span data-lang="en">Scientific Software Development</span><span data-lang="de">Wissenschaftliche Softwareentwicklung</span></h3>
+                    <p><span data-lang="en">Custom software development in Fortran, Python, Julia, and Matlab for scientific computing and numerical simulations.</span><span data-lang="de">Maßgeschneiderte Softwareentwicklung in Fortran, Python, Julia und Matlab für wissenschaftliches Rechnen und numerische Simulationen.</span></p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud-rain"></i>
+                    </div>
+                    <h3><span data-lang="en">Climate Change Research</span><span data-lang="de">Klimafolgenforschung</span></h3>
+                    <p><span data-lang="en">Advanced analysis of urban flash floods and climate change impacts using cutting-edge modeling techniques.</span><span data-lang="de">Fortgeschrittene Analyse urbaner Sturzfluten und Klimafolgen mit modernen Modellierungstechniken.</span></p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3><span data-lang="en">Training & Consulting</span><span data-lang="de">Schulungen & Beratung</span></h3>
+                    <p><span data-lang="en">Professional training courses and workshops on hydrodynamic modeling for researchers and engineers.</span><span data-lang="de">Professionelle Schulungen und Workshops zur hydrodynamischen Modellierung für Forschende und Ingenieure.</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-lang="en">Our Portfolio</span><span data-lang="de">Unser Portfolio</span></h2>
+                <p><span data-lang="en">Some of our recent work</span><span data-lang="de">Einige unserer jüngsten Projekte</span></p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/flood-modeling.svg" alt="Urban Flash Flood Modeling" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3><span data-lang="en">Urban Flash Flood Modeling</span><span data-lang="de">Modellierung urbaner Sturzfluten</span></h3>
+                        <p><span data-lang="en">Advanced research and modeling of urban flash floods caused by climate change, providing critical insights for urban planning and disaster preparedness.</span><span data-lang="de">Fortgeschrittene Forschung und Modellierung urbaner Sturzfluten infolge des Klimawandels zur Unterstützung von Stadtplanung und Katastrophenvorsorge.</span></p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/software-development.svg" alt="Scientific Software Development" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3><span data-lang="en">2D/3D Hydrodynamic Software Development</span><span data-lang="de">2D/3D Hydrodynamische Softwareentwicklung</span></h3>
+                        <p><span data-lang="en">Custom software development for hydrodynamic modeling using Fortran, Python, Julia, and Matlab. Specialized in numerical methods for fluid dynamics simulations.</span><span data-lang="de">Maßgeschneiderte Softwareentwicklung für hydrodynamische Modellierung mit Fortran, Python, Julia und Matlab. Spezialisiert auf numerische Verfahren für Strömungssimulationen.</span></p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/model-validation.svg" alt="Numerical Model Validation" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3><span data-lang="en">Numerical Model Validation</span><span data-lang="de">Validierung numerischer Modelle</span></h3>
+                        <p><span data-lang="en">Comprehensive validation and verification of 2D and 3D hydrodynamic numerical models, ensuring accuracy and reliability for scientific and engineering applications.</span><span data-lang="de">Umfassende Validierung und Verifikation von 2D- und 3D-hydrodynamischen Modellen zur Sicherstellung von Genauigkeit und Zuverlässigkeit für wissenschaftliche und ingenieurtechnische Anwendungen.</span></p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/training-education.svg" alt="Hydrodynamic Modeling Education" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3><span data-lang="en">Hydrodynamic Modeling Education</span><span data-lang="de">Ausbildung in hydrodynamischer Modellierung</span></h3>
+                        <p><span data-lang="en">Teaching courses and conducting workshops on hydrodynamic modeling techniques, sharing expertise with students and professionals in the field.</span><span data-lang="de">Durchführung von Kursen und Workshops zur hydrodynamischen Modellierung, um Wissen mit Studierenden und Fachleuten zu teilen.</span></p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/expert-consulting.svg" alt="Expert Advice on Numerical Modeling" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3><span data-lang="en">Expert Advice on Numerical Modeling</span><span data-lang="de">Fachliche Beratung zur numerischen Modellierung</span></h3>
+                        <p><span data-lang="en">Providing specialized consulting and expert advice on numerical modeling approaches, methodology selection, and best practices for complex engineering and research projects.</span><span data-lang="de">Angebot spezialisierter Beratung und Expertenempfehlungen zu Ansätzen der numerischen Modellierung, Methodenauswahl und Best Practices für komplexe Ingenieur- und Forschungsprojekte.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2><span data-lang="en">Get In Touch</span><span data-lang="de">Kontakt aufnehmen</span></h2>
+                <p><span data-lang="en">Ready to start your project? Contact us today!</span><span data-lang="de">Bereit, Ihr Projekt zu starten? Kontaktieren Sie uns noch heute!</span></p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4><span data-lang="en">Email</span><span data-lang="de">E-Mail</span></h4>
+                            <p>info@flowincode.de</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4><span data-lang="en">Phone</span><span data-lang="de">Telefon</span></h4>
+                            <p>+49 176 630 48 730</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4><span data-lang="en">Address</span><span data-lang="de">Adresse</span></h4>
+                            <p>Liebigstr. 11<br>76135 Karlsruhe<br>Germany</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" data-ph-en="Your Name" data-ph-de="Ihr Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" data-ph-en="Your Email" data-ph-de="Ihre E-Mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" data-ph-en="Subject" data-ph-de="Betreff" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" data-ph-en="Your Message" data-ph-de="Ihre Nachricht" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><span data-lang="en">Send Message</span><span data-lang="de">Nachricht senden</span></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>flowincode</h3>
+                    <p><span data-lang="en">Creating amazing digital experiences with passion and expertise through innovative coding solutions.</span><span data-lang="de">Wir schaffen herausragende digitale Erlebnisse mit Leidenschaft und Expertise durch innovative Coding-Lösungen.</span></p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4><span data-lang="en">Quick Links</span><span data-lang="de">Schnellzugriff</span></h4>
+                    <ul>
+                        <li><a href="#home"><span data-lang="en">Home</span><span data-lang="de">Start</span></a></li>
+                        <li><a href="#about"><span data-lang="en">About</span><span data-lang="de">Über uns</span></a></li>
+                        <li><a href="#services"><span data-lang="en">Services</span><span data-lang="de">Leistungen</span></a></li>
+                        <li><a href="#portfolio"><span data-lang="en">Portfolio</span><span data-lang="de">Portfolio</span></a></li>
+                        <li><a href="publications.html"><span data-lang="en">Publications</span><span data-lang="de">Publikationen</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4><span data-lang="en">Services</span><span data-lang="de">Leistungen</span></h4>
+                    <ul>
+                        <li><a href="#"><span data-lang="en">Hydrodynamic Modeling</span><span data-lang="de">Hydrodynamische Modellierung</span></a></li>
+                        <li><a href="#"><span data-lang="en">Scientific Software</span><span data-lang="de">Wissenschaftliche Software</span></a></li>
+                        <li><a href="#"><span data-lang="en">Training</span><span data-lang="de">Schulungen</span></a></li>
+                        <li><a href="#"><span data-lang="en">Consulting</span><span data-lang="de">Beratung</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4><span data-lang="en">Contact Info</span><span data-lang="de">Kontakt</span></h4>
+                    <p><i class="fas fa-envelope"></i> info@flowincode.de</p>
+                    <p><i class="fas fa-phone"></i> +49 176 630 48 730</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 flowincode. <span data-lang="en">All rights reserved.</span><span data-lang="de">Alle Rechte vorbehalten.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

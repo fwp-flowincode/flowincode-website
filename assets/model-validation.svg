@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGrad3)"/>
+  <rect width="400" height="300" fill="url(#grid)"/>
+  
+  <!-- Chart area -->
+  <rect x="60" y="50" width="280" height="180" fill="rgba(255,255,255,0.1)" rx="4"/>
+  
+  <!-- Axes -->
+  <line x1="80" y1="50" x2="80" y2="230" stroke="white" stroke-width="2"/>
+  <line x1="80" y1="230" x2="340" y1="230" stroke="white" stroke-width="2"/>
+  
+  <!-- Data points - experimental -->
+  <circle cx="120" cy="180" r="4" fill="#e74c3c"/>
+  <circle cx="150" cy="150" r="4" fill="#e74c3c"/>
+  <circle cx="180" cy="120" r="4" fill="#e74c3c"/>
+  <circle cx="210" cy="100" r="4" fill="#e74c3c"/>
+  <circle cx="240" cy="90" r="4" fill="#e74c3c"/>
+  <circle cx="270" cy="85" r="4" fill="#e74c3c"/>
+  <circle cx="300" cy="80" r="4" fill="#e74c3c"/>
+  
+  <!-- Model line -->
+  <path d="M120,175 Q180,120 240,88 T300,78" fill="none" stroke="#2ecc71" stroke-width="3"/>
+  
+  <!-- Legend -->
+  <rect x="250" y="60" width="80" height="40" fill="rgba(0,0,0,0.3)" rx="4"/>
+  <circle cx="260" cy="72" r="3" fill="#e74c3c"/>
+  <text x="270" y="75" fill="white" font-size="10">Experimental</text>
+  <line x1="255" y1="85" x2="270" y2="85" stroke="#2ecc71" stroke-width="2"/>
+  <text x="275" y="88" fill="white" font-size="10">Model</text>
+  
+  <!-- Correlation coefficient -->
+  <text x="90" y="40" fill="white" font-size="14" font-weight="bold">R² = 0.98</text>
+  
+  <!-- Axes labels -->
+  <text x="200" y="255" text-anchor="middle" fill="white" font-size="12">Time</text>
+  <text x="25" y="140" text-anchor="middle" fill="white" font-size="12" transform="rotate(-90, 25, 140)">Velocity</text>
+  
+  <!-- Title -->
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Model Validation</text>
+</svg>
