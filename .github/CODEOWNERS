@@ -1,0 +1,6 @@
+## CODEOWNERS for flowincode-website
+# This file declares who must review and approve changes across the repo.
+# Adjust the username below if you want a different account or team to be the owner.
+
+# Require review/ownership by the repository/org owner for all files
+* @fwp-flowincode
