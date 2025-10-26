@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+      width="800"
+      height="600"
+      viewBox="0 0 800 600"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="w-full h-full max-w-4xl"
+    >
+      <defs>
+        
+        <linearGradient id="waterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#3b82f6" />
+          <stop offset="50%" stop-color="#60a5fa" />
+          <stop offset="100%" stop-color="#93c5fd" />
+        </linearGradient>
+        
+        
+        <linearGradient id="envGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#10b981" stop-opacity="0.3" />
+          <stop offset="100%" stop-color="#059669" stop-opacity="0.5" />
+        </linearGradient>
+        
+        
+        <linearGradient id="codeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#6366f1" stop-opacity="0.7" />
+          <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.5" />
+        </linearGradient>
+
+        
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94a3b8" stroke-width="0.5" opacity="0.3" />
+        </pattern>
+      </defs>
+
+      
+      <rect width="800" height="600" fill="#f8fafc" />
+      
+      
+      <rect width="800" height="600" fill="url(#grid)" />
+
+      
+      <g>
+        
+        <path
+          d="M 0 450 Q 100 420 200 450 T 400 450 T 600 450 T 800 450 L 800 600 L 0 600 Z"
+          fill="#3b82f6"
+        >
+          <animate
+            attributeName="d"
+            dur="8s"
+            repeatCount="indefinite"
+            values="
+              M 0 450 Q 100 420 200 450 T 400 450 T 600 450 T 800 450 L 800 600 L 0 600 Z;
+              M 0 450 Q 100 480 200 450 T 400 450 T 600 450 T 800 450 L 800 600 L 0 600 Z;
+              M 0 450 Q 100 420 200 450 T 400 450 T 600 450 T 800 450 L 800 600 L 0 600 Z
+            "
+          />
+        </path>
+
+        
+        <path
+          d="M 0 380 Q 150 350 300 380 T 600 380 T 900 380 L 900 600 L 0 600 Z"
+          fill="#60a5fa"
+        >
+          <animate
+            attributeName="d"
+            dur="6s"
+            repeatCount="indefinite"
+            values="
+              M 0 380 Q 150 350 300 380 T 600 380 T 900 380 L 900 600 L 0 600 Z;
+              M 0 380 Q 150 410 300 380 T 600 380 T 900 380 L 900 600 L 0 600 Z;
+              M 0 380 Q 150 350 300 380 T 600 380 T 900 380 L 900 600 L 0 600 Z
+            "
+          />
+        </path>
+
+        
+        <path
+          d="M 0 320 Q 200 290 400 320 T 800 320 L 800 600 L 0 600 Z"
+          fill="#93c5fd"
+        >
+          <animate
+            attributeName="d"
+            dur="10s"
+            repeatCount="indefinite"
+            values="
+              M 0 320 Q 200 290 400 320 T 800 320 L 800 600 L 0 600 Z;
+              M 0 320 Q 200 350 400 320 T 800 320 L 800 600 L 0 600 Z;
+              M 0 320 Q 200 290 400 320 T 800 320 L 800 600 L 0 600 Z
+            "
+          />
+        </path>
+      </g>
+
+      
+      <g>
+        <path
+          d="M 0 550 Q 150 545 300 520 Q 450 450 600 320 L 600 600 L 0 600 Z"
+          fill="#8b7355"
+        />
+      </g>
+
+      
+      <g>
+        <path
+          d="M 600 320 Q 620 325 640 320 L 800 320 L 800 600 L 600 600 Z"
+          fill="#8b7355"
+        />
+        <path
+          d="M 600 320 Q 620 325 640 320 L 800 320 L 800 330 Q 700 328 600 330 Z"
+          fill="#10b981"
+        />
+      </g>
+
+      
+      <g fill="#64748b" opacity="0.7">
+        
+        <rect x="650" y="270" width="35" height="50" />
+        <rect x="655" y="275" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="667" y="275" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="655" y="287" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="667" y="287" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="655" y="299" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="667" y="299" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        
+        
+        <rect x="695" y="250" width="40" height="70" />
+        <rect x="700" y="255" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="712" y="255" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="724" y="255" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="700" y="267" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="712" y="267" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="724" y="267" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="700" y="279" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="712" y="279" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="724" y="279" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="700" y="291" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="712" y="291" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="724" y="291" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="700" y="303" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="712" y="303" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        <rect x="724" y="303" width="8" height="8" fill="#fbbf24" opacity="0.8" />
+        
+        
+        <rect x="745" y="280" width="30" height="40" />
+        <rect x="750" y="285" width="7" height="7" fill="#fbbf24" opacity="0.8" />
+        <rect x="761" y="285" width="7" height="7" fill="#fbbf24" opacity="0.8" />
+        <rect x="750" y="296" width="7" height="7" fill="#fbbf24" opacity="0.8" />
+        <rect x="761" y="296" width="7" height="7" fill="#fbbf24" opacity="0.8" />
+        <rect x="750" y="307" width="7" height="7" fill="#fbbf24" opacity="0.8" />
+        <rect x="761" y="307" width="7" height="7" fill="#fbbf24" opacity="0.8" />
+      </g>
+
+      
+      <g>
+        
+        <circle cx="635" cy="302" r="12" fill="#166534" />
+        <rect x="632" y="312" width="6" height="18" fill="#92400e" />
+        
+        
+        <circle cx="688" cy="307" r="10" fill="#166534" />
+        <rect x="686" y="315" width="4" height="15" fill="#92400e" />
+        
+        
+        <circle cx="740" cy="312" r="8" fill="#166534" />
+        <rect x="738" y="318" width="4" height="12" fill="#92400e" />
+        
+        
+        <circle cx="780" cy="305" r="11" fill="#166534" />
+        <rect x="778" y="314" width="5" height="16" fill="#92400e" />
+        
+        
+        <circle cx="615" cy="310" r="9" fill="#166534" />
+        <rect x="613" y="317" width="4" height="13" fill="#92400e" />
+        
+        
+        <circle cx="785" cy="315" r="7" fill="#166534" />
+        <rect x="783" y="320" width="4" height="10" fill="#92400e" />
+      </g>
+
+      
+      <g opacity="0.7">
+        <ellipse cx="670" cy="180" rx="35" ry="30" fill="#64748b" />
+        <ellipse cx="650" cy="185" rx="30" ry="25" fill="#64748b" />
+        <ellipse cx="690" cy="185" rx="30" ry="25" fill="#64748b" />
+        
+        <ellipse cx="740" cy="150" rx="30" ry="25" fill="#64748b" />
+        <ellipse cx="720" cy="155" rx="25" ry="20" fill="#64748b" />
+        <ellipse cx="760" cy="155" rx="25" ry="20" fill="#64748b" />
+      </g>
+
+      
+      <g stroke="#3b82f6" stroke-width="2" stroke-linecap="round" opacity="0.6">
+        
+        <line x1="650" y1="210" x2="650" y2="230">
+          <animate attributeName="y1" values="210;320" dur="1.5s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="230;340" dur="1.5s" repeatCount="indefinite" />
+        </line>
+        <line x1="665" y1="215" x2="665" y2="235">
+          <animate attributeName="y1" values="215;325" dur="1.3s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="235;345" dur="1.3s" repeatCount="indefinite" />
+        </line>
+        <line x1="680" y1="212" x2="680" y2="232">
+          <animate attributeName="y1" values="212;322" dur="1.6s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="232;342" dur="1.6s" repeatCount="indefinite" />
+        </line>
+        <line x1="695" y1="218" x2="695" y2="238">
+          <animate attributeName="y1" values="218;328" dur="1.4s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="238;348" dur="1.4s" repeatCount="indefinite" />
+        </line>
+        
+        
+        <line x1="720" y1="180" x2="720" y2="200">
+          <animate attributeName="y1" values="180;290" dur="1.2s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="200;310" dur="1.2s" repeatCount="indefinite" />
+        </line>
+        <line x1="735" y1="182" x2="735" y2="202">
+          <animate attributeName="y1" values="182;292" dur="1.5s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="202;312" dur="1.5s" repeatCount="indefinite" />
+        </line>
+        <line x1="750" y1="185" x2="750" y2="205">
+          <animate attributeName="y1" values="185;295" dur="1.3s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="205;315" dur="1.3s" repeatCount="indefinite" />
+        </line>
+        <line x1="765" y1="183" x2="765" y2="203">
+          <animate attributeName="y1" values="183;293" dur="1.7s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="203;313" dur="1.7s" repeatCount="indefinite" />
+        </line>
+        
+        
+        <line x1="658" y1="210" x2="658" y2="230">
+          <animate attributeName="y1" values="210;320" dur="1.4s" begin="0.5s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="230;340" dur="1.4s" begin="0.5s" repeatCount="indefinite" />
+        </line>
+        <line x1="672" y1="213" x2="672" y2="233">
+          <animate attributeName="y1" values="213;323" dur="1.6s" begin="0.3s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="233;343" dur="1.6s" begin="0.3s" repeatCount="indefinite" />
+        </line>
+        <line x1="728" y1="181" x2="728" y2="201">
+          <animate attributeName="y1" values="181;291" dur="1.5s" begin="0.4s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="201;311" dur="1.5s" begin="0.4s" repeatCount="indefinite" />
+        </line>
+        <line x1="742" y1="184" x2="742" y2="204">
+          <animate attributeName="y1" values="184;294" dur="1.3s" begin="0.6s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="204;314" dur="1.3s" begin="0.6s" repeatCount="indefinite" />
+        </line>
+      </g>
+
+
+
+      
+      <g stroke="#3b82f6" stroke-width="3" fill="none" opacity="0.8">
+        
+        <path d="M 20 315 Q 30 305 40 315 T 60 315 T 80 315 T 100 315" stroke-dasharray="5,3">
+          <animate
+            attributeName="d"
+            dur="3s"
+            repeatCount="indefinite"
+            values="
+              M 20 315 Q 30 305 40 315 T 60 315 T 80 315 T 100 315;
+              M 20 315 Q 30 325 40 315 T 60 315 T 80 315 T 100 315;
+              M 20 315 Q 30 305 40 315 T 60 315 T 80 315 T 100 315
+            "
+          />
+        </path>
+        <text x="25" y="300" fill="#3b82f6" font-family="sans-serif" font-size="11" opacity="0.9">
+          Tidal BCs
+        </text>
+      </g>
+
+      
+      <g font-family="monospace" font-size="15">
+        
+        <text x="80" y="400" fill="#ffffff" opacity="0.95">
+          ∂h/∂t + ∂(hu)/∂x + ∂(hv)/∂y = 0
+        </text>
+        
+        
+        <text x="80" y="430" fill="#ffffff" opacity="0.95" font-size="14">
+          ∂u/∂t + u∂u/∂x + v∂u/∂y = -g∂h/∂x - c_f u + τ_wx/ρh
+        </text>
+      </g>
+
+      
+      <g>
+        
+        <path
+          d="M 120 490 L 200 485 L 210 545 L 130 550 Z"
+          fill="none"
+          stroke="#ffffff"
+          stroke-width="2"
+          opacity="0.7"
+        />
+        
+        
+        <g stroke="#ffffff" stroke-width="2" fill="#ffffff" opacity="0.8">
+          
+          <line x1="90" y1="520" x2="120" y2="520" />
+          <polygon points="120,520 115,517 115,523" />
+          <text x="95" y="515" fill="#ffffff" font-family="monospace" font-size="11">F₁</text>
+          
+          
+          <line x1="170" y1="570" x2="170" y2="547" />
+          <polygon points="170,547 167,552 173,552" />
+          <text x="175" y="565" fill="#ffffff" font-family="monospace" font-size="11">F₂</text>
+          
+          
+          <line x1="210" y1="515" x2="240" y2="513" />
+          <polygon points="240,513 235,510 235,516" />
+          <text x="215" y="510" fill="#ffffff" font-family="monospace" font-size="11">F₃</text>
+          
+          
+          <line x1="160" y1="485" x2="160" y2="460" />
+          <polygon points="160,460 157,465 163,465" />
+          <text x="165" y="475" fill="#ffffff" font-family="monospace" font-size="11">F₄</text>
+        </g>
+        
+        
+        <text x="250" y="520" fill="#ffffff" font-family="monospace" font-size="13" opacity="0.9">
+          ∂U/∂t + ∑ F = 0
+        </text>
+      </g>
+
+      
+      <g fill="url(#codeGradient)" opacity="0.5">
+        
+        <path d="M 130 140 L 150 140 L 150 145 L 135 145 L 135 250 L 150 250 L 150 255 L 130 255 Z" />
+  
+  <path d="M 560 140 L 540 140 L 540 145 L 555 145 L 555 250 L 540 250 L 540 255 L 560 255 Z" />
+
+        
+        <text x="140" y="165" fill="#23647cff" opacity="0.95" font-family="monospace" font-size="12">
+          def solve(grid, physics, fv, integrator):
+        </text>
+        <text x="150" y="205" fill="#6f8fdfff" opacity="0.95" font-family="monospace" font-size="12">
+          sim = Simulation(grid, physics, fv, integrator)
+        </text>
+        <text x="150" y="225" fill="#6f8fdfff" opacity="0.95" font-family="monospace" font-size="12">
+          sim.solve()
+        </text>
+      </g>
+
+
+
+      
+      <g>
+        <text
+          x="320"
+          y="70"
+          text-anchor="left"
+          fill="#13305fff"
+          font-family="system-ui, -apple-system, sans-serif"
+          font-size="36"
+          fontWeight="800"
+          letter-spacing="0.3"
+        >
+          flowincode
+        </text>
+        <text
+          x="80"
+          y="100"
+          text-anchor="left"
+          fill="#3064acff"
+          font-family="system-ui, -apple-system, sans-serif"
+          font-size="20"
+          letter-spacing="0.3"
+        >
+          Hydrodynamic Modeling · Numerical Algorithms · Scientific Software
+        </text>
+      </g>
+
+      
+      <g fill="#3b82f6" opacity="0.3">
+        <circle cx="650" cy="350" r="3">
+          <animate attributeName="cy" values="350;340;350" dur="3s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="680" cy="370" r="2">
+          <animate attributeName="cy" values="370;365;370" dur="4s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="620" cy="380" r="2.5">
+          <animate attributeName="cy" values="380;375;380" dur="3.5s" repeatCount="indefinite" />
+        </circle>
+      </g>
+
+      
+      <g stroke="#10b981" stroke-width="1.5" fill="none" opacity="0.4">
+        <path d="M 150 350 L 180 345 M 180 345 L 175 340 M 180 345 L 175 350" />
+        <path d="M 250 370 L 280 365 M 280 365 L 275 360 M 280 365 L 275 370" />
+        <path d="M 350 360 L 380 355 M 380 355 L 375 350 M 380 355 L 375 360" />
+        <path d="M 450 375 L 480 370 M 480 370 L 475 365 M 480 370 L 475 375" />
+      </g>
+    </svg>
